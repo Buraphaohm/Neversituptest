@@ -8,7 +8,7 @@ public class Permutations {
         List<String> result = permute(str);
         System.out.println(result);
     }
-    // Rest of the code remains the same
+    
     public static List<String> permute(String str) {
         List<String> list = new ArrayList<>();
         Set<String> set = new HashSet<>();
